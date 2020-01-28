@@ -13,6 +13,7 @@ public class SpringJenkinsExampleApplication {
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsExampleApplication.class);
 	
 	public static void main(String[] args) {
+		logger.info("starting main method");
 		SpringApplication.run(SpringJenkinsExampleApplication.class, args);
 		logger.info("leaving main method");
 	}
